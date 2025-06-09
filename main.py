@@ -36,6 +36,7 @@ class MainApp:
         self.menu.add_cascade(label="Applications", menu=self.file_menu)
         self.file_menu.add_command(label="YouTube Downloader", command=self.open_youtube_downloader)
         self.file_menu.add_command(label="PDF to PNG Converter", command=self.open_pdf_to_png)
+        self.file_menu.add_command(label="Video Cutter", command=self.open_video_cutter)  # Yeni satır eklendi
 
         # Downloads menüsü ekle
         self.download_menu = Menu(self.menu, tearoff=0)
@@ -52,6 +53,11 @@ class MainApp:
     def open_pdf_to_png(self):
         new_window = tk.Toplevel(self.master)
         pdf_to_png.PdfToPngConverter(new_window)  # PDF-PNG dönüştürücü arayüzünü başlat
+
+    def open_video_cutter(self):
+        import video_cutter  # Video cutter modülünü içe aktar
+        new_window = tk.Toplevel(self.master)
+        video_cutter.VideoCutterApp(new_window)  # Video cutter arayüzünü başlat
 
     def open_downloads_folder(self):
         downloads_path = os.path.join(os.path.expanduser("~"), "Downloads", "EvriTink")  # Kullanıcının indirme klasörünü bul
