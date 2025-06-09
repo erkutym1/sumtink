@@ -5,10 +5,13 @@ Features
 - YouTube Video and Audio Download (any resolution available)
 - YouTube Playlist Download (any resolution available)
 - Convert PDF files to PNG files (300 dpi)
+- Cut Videos
 
 ![image](https://github.com/user-attachments/assets/43050aec-e474-49cd-bf59-1432ea115013)
 ![image](https://github.com/user-attachments/assets/ce57b01c-a9f3-4869-a6b5-8542f07812b0)
 ![image](https://github.com/user-attachments/assets/8fd81e88-4c6f-46dd-a473-5a56f2be521c)
+![image](https://github.com/user-attachments/assets/1e6ec982-42ba-4146-8748-6ca04ab7df21)
+
 
 
 ![A logo with the theme of automotive tools featuring the letters S and T (1)](https://github.com/user-attachments/assets/0a72a4db-4919-44da-b3b9-af0116e56e5f)
